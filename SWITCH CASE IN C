@@ -1,0 +1,107 @@
+#include <stdio.h>
+
+ 
+
+int main()
+
+
+
+{
+
+  int x;
+
+
+
+  printf("The value of x is ");
+
+
+
+  scanf("%d",&x);
+
+
+
+  switch (x) {
+
+
+
+  case 1:
+
+
+
+    printf("\nFood Item - Kachori\nPrice - Rs.70");
+
+
+
+    break;
+
+
+
+  case 2:
+
+
+
+    printf("\nFood Item - Pani Puri\nPrice - Rs.150");
+
+
+
+    break;
+
+
+
+  case 3:
+
+
+
+    printf("\nFood Item - Bhel Puri\nPrice - Rs.200");
+
+
+
+    break;
+
+
+
+  case 4:
+
+
+
+    printf("\nFood Item - Vada Pav\nPrice - Rs.180");
+
+
+
+    break;
+
+
+
+  case 5:
+
+
+
+    printf("\nFood Item - Pav Bhaji\nPrice - Rs.120");
+
+
+
+    break;
+
+
+
+  default:
+
+
+
+    printf("Please choose between 1 to 5");
+
+
+
+    break;
+
+
+
+  }
+
+
+
+  return 0;
+
+
+
+}
